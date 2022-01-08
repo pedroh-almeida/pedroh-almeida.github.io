@@ -11,7 +11,7 @@ import { Texto } from './texto.model';
 })
 export class TextoService {
 
-  baseUrl: String = environment.baseUrl;
+  baseUrl: String = 'https://backend-project-post.herokuapp.com';
 
   constructor(private http: HttpClient, private _snack: MatSnackBar) { }
 

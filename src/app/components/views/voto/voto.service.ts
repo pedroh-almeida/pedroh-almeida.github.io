@@ -10,7 +10,7 @@ import { Injectable } from '@angular/core';
 })
 export class VotoService {
 
-  baseUrl = environment.baseUrl
+  baseUrl = 'https://backend-project-post.herokuapp.com';
 
   constructor(private http: HttpClient, private _snack: MatSnackBar) { }
 
